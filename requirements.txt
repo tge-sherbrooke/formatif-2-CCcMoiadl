@@ -1,0 +1,12 @@
+# Dépendances Python pour le Formatif F2
+# Semaine 2 : GPIO, Git avancé et capteur DHT22
+
+# GPIO (Raspberry Pi uniquement)
+RPi.GPIO>=0.7.1
+
+# Capteur DHT22 (température et humidité)
+adafruit-circuitpython-dht>=3.7.9
+adafruit-blinka>=8.0.0
+
+# Pour les tests (optionnel)
+pytest>=7.0.0
